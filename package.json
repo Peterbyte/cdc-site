@@ -1,5 +1,5 @@
 {
-  "name": "CDC_Site",
+  "name": "cdc-site",
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -9,6 +9,7 @@
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-compile-handlebars": "^2.0.2",
-    "grunt-contrib-clean": "^1.1.0"
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-uglify": "^2.3.0"
   }
 }

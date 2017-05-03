@@ -21,15 +21,26 @@ module.exports = function(grunt) {
 	    		preHTML: 'src/html/pre-html.html',
 	    		postHTML: 'src/html/post-html.html'
 	    	}
+	    },
+	    uglify: {
+	    	options:{
+	    		mangle: false
+	    	},
+	    	build: {
+	    		src: 'src/scripts/**/*.js',
+	    		dest: 'target/scripts/cdc-site.min.js'
+	    	}
 	    }
 	});
 
 	grunt.loadNpmTasks('grunt-contrib-clean');
 	grunt.loadNpmTasks('grunt-compile-handlebars');
+	grunt.loadNpmTasks('grunt-contrib-uglify');
 
 	grunt.registerTask('compile', [
 		'clean:deleteTarget',
-		'compile-handlebars:compile'
+		'compile-handlebars:compile',
+		'uglify'
 	]);
 
 };
