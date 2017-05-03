@@ -80,6 +80,19 @@ module.exports = function(grunt) {
 				src: ['target/**/*.html']
 			}
 		},
+		htmlmin: {
+			dist:{
+				options:{
+					removeComments: true,
+					collapseWhitespace: true
+				},
+				files: [{
+					expand: true,
+					src: ['target/**/*.html'],
+					dest: '.'
+				}]
+			}
+	    },
 		hashres: {
 			options:{
 				fileNameFormat: '${name}.${hash}.${ext}',
@@ -111,6 +124,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-contrib-compress');
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
+	grunt.loadNpmTasks('grunt-contrib-htmlmin');
 	grunt.loadNpmTasks('grunt-sass');
 	grunt.loadNpmTasks('grunt-uncss');
   	grunt.loadNpmTasks('grunt-inline');
@@ -124,7 +138,8 @@ module.exports = function(grunt) {
 		'sass:compile',
 		'cssmin:fromBuiltSrc',
 		'uncss',
-		'inline'
+		'inline',
+		'htmlmin'
 	]);
 
 	grunt.registerTask('default', [
