@@ -38,7 +38,7 @@ module.exports = function(grunt) {
 	    		mangle: false
 	    	},
 	    	build: {
-	    		src: 'src/scripts/**/*.js',
+	    		src: ['src/scripts/vendor/**/*.js', 'src/scripts/**/*.js'],
 	    		dest: 'target/scripts/cdc-site.min.js'
 	    	}
 	    },
@@ -61,8 +61,19 @@ module.exports = function(grunt) {
 				files:{
 					'target/styles/cdc-site.min.css': ['build/styles/**/*.css']
 				}
+			},
+			fromVendorSrc: {
+				files:{
+					'target/styles/cdc-vendor-site.min.css': ['src/styles/vendor/*.css']
+				}
 			}
 		},
+	    concat:{
+			dist:{
+				src: ['target/styles/cdc-vendor-site.min.css', 'target/styles/cdc-site.min.css'],
+				dest: 'target/styles/cdc-site.min.css'
+			}
+	    },
 		uncss: {
 			dist: {
 				files: {
@@ -120,6 +131,7 @@ module.exports = function(grunt) {
 
 	grunt.loadNpmTasks('grunt-contrib-clean');
 	grunt.loadNpmTasks('grunt-contrib-copy');
+	grunt.loadNpmTasks('grunt-contrib-concat');
 	grunt.loadNpmTasks('grunt-compile-handlebars');
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-contrib-compress');
@@ -138,6 +150,8 @@ module.exports = function(grunt) {
 		'sass:compile',
 		'cssmin:fromBuiltSrc',
 		'uncss',
+		'cssmin:fromVendorSrc',
+		'concat',
 		'inline',
 		'htmlmin'
 	]);

@@ -1,6 +1,85 @@
-body {
-	color: blue;
+body, .cdc-bg-green{
+	background-color: #1ca2a1;
+	color: #FFF;
+}
+footer{
+	padding: 16px;
+	a{
+		text-decoration: none;
+	}
+	.cdc-contact{
+		float: left;
+		text-align: left;
+		a{
+			font-size: 20px;
+			display: block;
+		}
+		.phone{
+			font-size: 24px;
+			i{
+				font-size: 20px;
+			}
+		}
+	}
+	.footer-carousel{
+		background-color: #FFF;
+		float: right;
+		padding: 3px;
+		margin-bottom: 10px;
+		img {
+			padding-bottom: 4px;
+		}
+	}
+}
+header{
 	h1{
-		color: black;
+		margin: 0;
+	}
+	#cdc-logo{
+		background: url('../img/cdc-logo.png') no-repeat scroll 5px 6px;
+		text-indent: -9999px;
+		margin: 0 0 0 12px;
+		padding: 0;
+		height: 45px;
+	}
+}
+
+.item{
+	.item-blurb{
+		display: none;
+	}
+}
+
+.item-blurb{
+	padding: 10px;
+	h2{
+		font-size: 25px;
+	    font-weight: bold;
+	}
+	h3{
+		font-size: 18px;
+	}
+}
+
+@media (min-width:871px){
+	.item-blurb{
+		display: none;
+	}
+	.item{
+		position: relative;
+		.item-blurb{
+			display: block;
+			color: #FFF;
+			position: absolute;
+			bottom: 10px;
+			left: 10px;
+			width: 100%;
+		}
+	}
+	footer{
+		.footer-carousel{
+			width: 50%;
+			margin-bottom: 0;
+		}
 	}
 }
