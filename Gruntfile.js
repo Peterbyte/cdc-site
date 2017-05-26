@@ -126,12 +126,22 @@ module.exports = function(grunt) {
 				expand: true,
 				src: ['target/**/*.*']
 			}
+		},
+		connect: {
+			server: {
+				options: {
+					port: 8000,
+					base: 'target',
+					keepalive: true
+				}
+			}
 		}
 	});
 
 	grunt.loadNpmTasks('grunt-contrib-clean');
 	grunt.loadNpmTasks('grunt-contrib-copy');
 	grunt.loadNpmTasks('grunt-contrib-concat');
+	grunt.loadNpmTasks('grunt-contrib-connect');
 	grunt.loadNpmTasks('grunt-compile-handlebars');
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-contrib-compress');
@@ -154,6 +164,11 @@ module.exports = function(grunt) {
 		'concat',
 		'inline',
 		'htmlmin'
+	]);
+
+	grunt.registerTask('dev', [
+		'compile',
+		'connect'
 	]);
 
 	grunt.registerTask('default', [

@@ -1,5 +1,9 @@
-#Preview locally (windows)
-C:\'Program Files'\Python\python.exe -m http.server 8000
+#Preview locally
+grunt connect
+
+or
+
+grunt dev
 
 #Sync to staging
 
