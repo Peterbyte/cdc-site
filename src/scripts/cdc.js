@@ -76,3 +76,14 @@ $(".footer-carousel").owlCarousel({
     onInitialized: fixOwl,
     onRefreshed: fixOwl
 });
+
+$(".commendation-carousel").owlCarousel({
+    margin: 10,
+    items: 1,
+    nav:false,
+    dots:false,
+    autoplay: true,
+    autoplayTimeout: 6500,
+    animateOut: 'fadeOut',
+    loop: true
+});
