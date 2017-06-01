@@ -149,13 +149,23 @@ header{
 	display: inline-block;
 	width: 100%;
 
-	> img{
-		width: 45%;
+	img{
+		width: 95%;
 		margin: 0;
 		float: left;
 		overflow: hidden;
+		margin-bottom: 3%;
+
+		@media (min-width:500px){
+			width: 45%;
+		}
 	}
 	img:first-of-type{
 		margin-right: 3%;
 	}
+}
+
+.side-partner-logo{
+	float: right;
+	padding: 10px;
 }
