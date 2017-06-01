@@ -26,9 +26,16 @@ module.exports = function(grunt) {
 	    			src: '*.hbs',
 	    			dest: 'target/',
 	    			ext: '.html'
+	    		}, {
+	    			expand: true,
+	    			cwd: 'src/templates',
+	    			src: '**/*.hbs',
+	    			dest: 'target/',
+	    			ext: '.html'
 	    		}],
-	    		templateData: 'src/templates/*.json',
-	    		partials: 'src/templates/partials/*.hbs',
+	    		templateData: '*.json',
+	    		globals: ['src/globals.json'],
+	    		partials: 'src/partials/*.hbs',
 	    		preHTML: 'src/html/pre-html.html',
 	    		postHTML: 'src/html/post-html.html'
 	    	}
