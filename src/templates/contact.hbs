@@ -1,0 +1,33 @@
+{{> head}}
+<body>
+	{{> header}}
+
+	<div class="w3-padding-64">
+		<div class="w3-container w3-padding-8" id="projects">
+			<h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">{{title}}</h3>
+		</div>
+
+		<div class="w3-container">
+			<p>Thank you for taking the time to visit our website. We hope you have received enough information on what solutions we can assist you with. If you decide that you would like to make an appointment or would like a further consultation on your requirements then please contact us on any of the below methods.</p>
+
+			<a href="{{locationPermalink}}" target="_blank">
+				<p>
+					{{company}}<br/>
+					1215 High Road<br/>
+					Chadwell Heath<br/>
+					RM6 4AL
+				</p>
+			</a>
+
+			<p>
+				Call: <a href="tel:{{telNo}}">{{telNo}}</a>
+			</p>
+
+			<p>
+				Email: <a href="mailto:{{emailAddress}}">{{emailAddress}}</a>
+			</p>
+		</div>
+	</div>
+
+	{{> footer}}
+</body>
