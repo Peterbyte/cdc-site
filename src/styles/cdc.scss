@@ -180,8 +180,8 @@ header{
 	}
 }
 
-.article-carousel{
-	.owl-item img{
+@media (min-width:500px){
+	#article-carousel img{
 		width: 45%;
 	}
 }

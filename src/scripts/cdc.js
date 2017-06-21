@@ -88,7 +88,7 @@ $(".commendation-carousel").owlCarousel({
     loop: true
 });
 
-$(".article-carousel").owlCarousel({
+$("#article-carousel").owlCarousel({
     margin: 10,
     items: 1,
     nav:false,
