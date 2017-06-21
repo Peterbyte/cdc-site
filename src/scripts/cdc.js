@@ -87,3 +87,14 @@ $(".commendation-carousel").owlCarousel({
     animateOut: 'fadeOut',
     loop: true
 });
+
+$(".article-carousel").owlCarousel({
+    margin: 10,
+    items: 1,
+    nav:false,
+    dots:false,
+    autoplay: true,
+    autoplayTimeout: 6500,
+    animateOut: 'fadeOut',
+    loop: true
+});
