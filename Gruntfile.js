@@ -159,6 +159,18 @@ module.exports = function(grunt) {
   	grunt.loadNpmTasks('grunt-inline');
   	grunt.loadNpmTasks('grunt-hashres');
 
+	grunt.registerTask('compileFast', [
+		'clean:deleteTarget',
+		'copy:copyImgs',
+		'compile-handlebars:compile',
+		'uglify',
+		'sass:compile',
+		'cssmin:fromBuiltSrc',
+		'cssmin:fromVendorSrc',
+		'concat',
+		'inline'
+	]);
+
 	grunt.registerTask('compile', [
 		'clean:deleteTarget',
 		'copy:copyImgs',
@@ -174,7 +186,7 @@ module.exports = function(grunt) {
 	]);
 
 	grunt.registerTask('dev', [
-		'compile',
+		'compileFast',
 		'connect'
 	]);
 

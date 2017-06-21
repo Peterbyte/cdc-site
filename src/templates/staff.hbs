@@ -9,36 +9,23 @@
 	</div>
 	
 	<div class="staff-section">
-		<div class="w3-container">
-			<div class="image-cropper">
-				<img src="/img/staff/placeholder.png" />
+		{{#each staff}}
+			<div class="w3-container">
+				<div class="image-cropper">
+					<img src="/img/staff/{{img}}" />
+				</div>
+				<div class="bio">
+					<h3>{{name}}</h3>
+					<h4>{{title}}</h4>
+					{{#each quals}}
+						<h5>{{this}}</h5>
+					{{/each}}
+					{{#each bio}}
+						<p>{{this}}</p>
+					{{/each}}
+				</div>
 			</div>
-			<div class="bio">
-				<h3>Dr. Amer Ullah</h3>
-				<p>Lorem  ipsum dolor sit amet, an mei quot dolor cotidieque. Eu purto prodesset ius. Mentitum splendide assueverit nec in. Vel et quidam inciderint, ut sed option voluptatibus, ei saepe doming duo.</p>
-				<p>Appetere singulis qui no. Est at nobis efficiantur, alia docendi volutpat vel ei, ex esse tacimates omittantur pro. Simul oblique detracto ex nam. Rebum vocibus sensibus per ex. Et vel simul omnes consequat, an per hinc atomorum. At sensibus pericula theophrastus nam, singulis liberavisse usu at.</p>
-			</div>
-		</div>
-		<div class="w3-container">
-			<div class="image-cropper">
-				<img src="/img/staff/placeholder.png" />
-			</div>
-			<div class="bio">
-				<h3>Dr. Salima Beg</h3>
-				<p>Lorem  ipsum dolor sit amet, an mei quot dolor cotidieque. Eu purto prodesset ius. Mentitum splendide assueverit nec in. Vel et quidam inciderint, ut sed option voluptatibus, ei saepe doming duo.</p>
-				<p>Appetere singulis qui no. Est at nobis efficiantur, alia docendi volutpat vel ei, ex esse tacimates omittantur pro. Simul oblique detracto ex nam. Rebum vocibus sensibus per ex. Et vel simul omnes consequat, an per hinc atomorum. At sensibus pericula theophrastus nam, singulis liberavisse usu at.</p>
-			</div>
-		</div>
-		<div class="w3-container">
-			<div class="image-cropper">
-				<img src="/img/staff/placeholder.png" />
-			</div>
-			<div class="bio">
-				<h3>Dr. Abc Def</h3>
-				<p>Lorem  ipsum dolor sit amet, an mei quot dolor cotidieque. Eu purto prodesset ius. Mentitum splendide assueverit nec in. Vel et quidam inciderint, ut sed option voluptatibus, ei saepe doming duo.</p>
-				<p>Appetere singulis qui no. Est at nobis efficiantur, alia docendi volutpat vel ei, ex esse tacimates omittantur pro. Simul oblique detracto ex nam. Rebum vocibus sensibus per ex. Et vel simul omnes consequat, an per hinc atomorum. At sensibus pericula theophrastus nam, singulis liberavisse usu at.</p>
-			</div>
-		</div>
+		{{/each}}
 	</div>
 </div>
 

@@ -1,3 +1,141 @@
 {
-	"title": "Team"
+	"title": "Team",
+	"staff": [
+		{
+			"img":"placeholder.png",
+			"name":"Dr. Amer Ullah",
+			"title":"Practice Principal",
+			"quals":[
+				"BDS (Victoria University of Manchester)",
+				"DGDP 1997 (Royal College of Surgeons London)"
+			],
+			"bio":[
+				"I have practiced in Chadwell Heath for twenty years and still enjoy it!",
+				"My special interest is in restorative and cosmetic dentistry. I also enjoy surgical dentistry, in particular Implantology. I have been placing implants since 2001 after gaining my certificate from the University of London and I am a member of the Association of Dental Implantology.",
+				"I regularly attend courses in Chamonix, France for Euroteknika implants.",
+				"Other interests include cricket, football, rock and blues music and I like to think I can play the drums!"
+			]
+		},
+		{
+			"img":"Dr_Salima_Beg.jpg",
+			"name":"Dr. Salima Beg",
+			"title":"Principal Partner",
+			"quals":[
+				"BDS 1996 (Barts and the Royal London Hospital)",
+				"BSc Physiology/Pharmacology 1991 (Kings College London)",
+				"GCD no. 72415"
+			],
+			"bio":[
+				"I have an interest in general and cosmetic Dentistry, with a profound interest in adult orthodontics.",
+				"After graduating I spent a year specialising in prosthodontics, and was a part time lecturer at The Royal London Hospital. In October 2000, I joined Chadwell Dental Care and bought the practice with Dr Amer Ullah.",
+				"I have over 20 years of experience in dentistry and have a caring approach to Dentistry.",
+				"We have successfully incorporated adult orthodontics into the choices that we provide for our patients. My patients have had some life changing results due to adult orthodontics.",
+				"I am proud of my professionalism and patient centered dentistry.",
+				"In my spare time I am a keen baker and artist and love to travel."
+			]
+		},
+		{
+			"img":"Dr_Jonathan_Ogle.jpg",
+			"name":"Dr. Jonathan Ogle",
+			"title":"Dentist",
+			"quals":[
+				"BDS (University of Dundee) 2014",
+				"GCD no. 250968"
+			],
+			"bio":[
+				"I enjoy all aspects of Dentistry, especially Preventative and Restorative Dentistry.",
+				"I enjoy restoring dentitions with Cosmetic Dentistry and changing peoples smiles!",
+				"Outside of work, I have a strong interest in sports, especially football and cycling. I am a keen Hockey player, playing for a local team in London."
+			]
+		},
+		{
+			"img":"Dr_Cristina_Dias_Hererro.jpg",
+			"name":"Dr. Cristina Diaz",
+			"title":"Dentist",
+			"quals":[
+				"GCD no. 161746"
+			],
+			"bio":[
+				"Cristina graduated in Bilbao (Spain 2007) and made the journey to England to practice in London.",
+				"She has special interests in oral implantology and Prosthodontics.",
+				"Her other interests include travelling, music/ concerts and she is a big football fan."
+			]
+		},
+		{
+			"img":"Miss_Carol_Collins.jpg",
+			"name":"Miss. Carol Collins",
+			"title":"Practice Manager",
+			"bio":[
+				"I have worked here at Chadwell Dental Care Ltd for the last seven years.",
+				"As well as reception I am in charge of the day to day running of the practice, and the smooth transition of new members of staff into the Practice.",
+				"We try to ensure a good experience for our patients and as the ‘face’ of the practice we implement our ethos of looking after you.",
+				"Out of work I enjoy spending time with my family and travelling."
+			]
+		},
+		{
+			"img":"Miss_Maryline_Collins.jpg",
+			"name":"Miss. Maryline Collins",
+			"title":"Dental Nurse",
+			"quals":[
+				"NEBDN Qualified Dental Nurse 2015",
+				"GCD no. 259870"
+			],
+			"bio":[
+				"My special interest is Implantology nursing as well as general dental nursing.",
+				"My other interests are cooking, reading, shopping and travelling.",
+				"What I enjoy most is spending time with my family and friends."
+			]
+		},
+		{
+			"img":"placeholder.png",
+			"name":"Mrs. Stephanie Kaye",
+			"title":"Dental Nurse",
+			"quals":[
+				"GCD no. 225242"
+			],
+			"bio":[
+				"I have been working at Chadwell Dental Care for the last seven years. I work part-time as I have a young family.",
+				"As well as general dentistry, I have an interest in implant and surgical nursing as well as some other administrative roles within the practice. When called upon, I have been known to work on reception as well!"
+			]
+		},
+		{
+			"img":"Miss_Anca_Dragoi.jpg",
+			"name":"Miss. Anca Dragoi",
+			"title":"Trainee Dental Nurse",
+			"bio":[
+				"I have been working for over a year and I really enjoy working at Chadwell Dental Care Ltd.",
+				"I try my best to be polite and produce a conducive atmosphere for the patients.",
+				"We all work well as team and and my colleagues always give encouragement and help with my oncoming examinations.",
+				"I love my home life and travelling."
+			]
+		},
+		{
+			"img":"placeholder.png",
+			"name":"Miss. Shapla Begum",
+			"title":"Receptionist",
+			"bio":[
+				"I have worked on reception for six years and enjoy the challenges it gives and helping our patients",
+				"To have a good experience at our practice. In particular I like to to help our nervous patients and being bilingual, help those patients for whom English is not their first language.",
+				"Out of work I like to design and make clothes as well as entertaining family and friends."
+			]
+		},
+		{
+			"img":"Miss_Danielle_Batty.jpg",
+			"name":"Miss. Danielle Batty",
+			"title":"Receptionist",
+			"bio":[
+				"I enjoy my work as a receptionist here at Chadwell Dental Care as it gives me the opportunity to communicate and engage with the general public. I am a naturally bubbly character, but at the same time vibrant, organised and a team player.",
+				"Out of work I enjoy lots of exercise and taking short breaks away with my loved ones."
+			]
+		},
+		{
+			"img":"Mrs_Pauline_Alabaster.jpg",
+			"name":"Mrs. Pauline Anne Alabaster",
+			"title":"Receptionist",
+			"bio":[
+				"As the newest member of the Chadwell dental care team, I aim to build on the warm and engaging atmosphere that patients are used to. I am friendly, patient and always willing to help.",
+				"Away from work I enjoy reading and studying medieval history and I am a keen amateur photographer."
+			]
+		}
+	]
 }
