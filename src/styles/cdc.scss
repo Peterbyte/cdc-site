@@ -174,3 +174,42 @@ header{
 	padding-top: 10px;
 	padding-right: 10px;
 }
+
+.fees-list{
+	h5{
+		text-decoration: underline;
+		font-weight: bold;
+		font-size: 100%;
+	}
+	table{
+		max-width: 600px;
+		width: 100%;
+		border-collapse: collapse;
+		margin-bottom: 40px;
+		th{
+			background-color: #1ca2a1;
+			color: #FFF;
+			font-weight: normal;
+			&:first-of-type{
+				width: 70%;
+			}
+		}
+		td[colspan="2"]{
+			font-weight: bold;
+		}
+		tr{
+			td{
+				border-bottom: 1px solid #1ca2a1;
+				&.caption{
+					font-weight: normal;
+					font-style: italic;
+				}
+			}
+			&.noborder{
+				td{
+					border-bottom: none;
+				}
+			}
+		}
+	}
+}
