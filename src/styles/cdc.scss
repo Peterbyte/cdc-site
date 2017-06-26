@@ -213,3 +213,18 @@ header{
 		}
 	}
 }
+
+.cqc-main{
+	display: inline-block;
+	margin-top: 10px;
+	text-decoration: none;
+	img{
+		float: left;
+		padding: 5px;
+		margin-top: 6px;
+	}
+	p{
+		padding: 7px;
+		overflow: hidden;
+	}
+}

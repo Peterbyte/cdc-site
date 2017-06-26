@@ -7,12 +7,13 @@ module.exports = function(grunt) {
 			deleteTmpGz: ['target/**/*.gz']
 	    },
 	    copy: {
-	    	copyImgs: {
+	    	copyFiles: {
 	    		files: [{
 	    			expand: true,
 	    			cwd: 'src',
 	    			src: [
-	    				'img/**/*.*'
+	    				'img/**/*.*',
+	    				'files/*.*'
 	    			],
 	    			dest: 'target/'
 	    		}]
@@ -161,7 +162,7 @@ module.exports = function(grunt) {
 
 	grunt.registerTask('compileFast', [
 		'clean:deleteTarget',
-		'copy:copyImgs',
+		'copy:copyFiles',
 		'compile-handlebars:compile',
 		'uglify',
 		'sass:compile',
@@ -173,7 +174,7 @@ module.exports = function(grunt) {
 
 	grunt.registerTask('compile', [
 		'clean:deleteTarget',
-		'copy:copyImgs',
+		'copy:copyFiles',
 		'compile-handlebars:compile',
 		'uglify',
 		'sass:compile',
