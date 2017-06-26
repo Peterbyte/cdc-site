@@ -1,3 +1,17 @@
 {
-	"title": ""
+	"title": "",
+	"commendations":[
+		{
+			"text":"I was a very nervous patient who had not attended for years, but the staff at Chadwell Dental Care were extremely caring and professional. I don’t mind coming now!",
+			"cite":"Mrs C. Moore, Chadwell Heath"
+		},
+		{
+			"text":"Friendly, listen to you, understanding and have patience.",
+			"cite":"Mr A. Moore"
+		},
+		{
+			"text":"I have been visiting Dr. Ullah for over a decade, and always feel safe in his care.",
+			"cite":"Mr. Bouquet"
+		}
+	]
 }

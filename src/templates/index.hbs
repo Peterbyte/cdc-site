@@ -44,24 +44,14 @@
   <div class="w3-col l3 m6 w3-margin-bottom">
     <h3><i class="fa fa-star"></i> Commendations</h3>
     <div class="owl-carousel owl-theme commendation-carousel">
-      <div class="item">
-        <blockquote>
-          I have been visiting Dr. Ullah for over a decade, and always feel safe in his care.
-          <cite>- Mr. Bouquet</cite>
-        </blockquote>
-      </div>
-      <div class="item">
-        <blockquote>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-          <cite>- AN Other</cite>
-        </blockquote>
-      </div>
-      <div class="item">
-        <blockquote>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-          <cite>- AN Other</cite>
-        </blockquote>
-      </div>
+      {{#each commendations}}
+        <div class="item">
+          <blockquote>
+            {{this.text}}
+            <cite>- {{this.cite}}</cite>
+          </blockquote>
+        </div>
+      {{/each}}
     </div>
   </div>
 </div>
