@@ -158,7 +158,19 @@ header{
 	}
 }
 
-.side-partner-logo{
-	float: right;
-	padding: 10px;
+.article-img-centre, .side-partner-logo{
+	text-align: center;
+}
+
+@media (min-width:675px){
+	.side-partner-logo{
+		float: right;
+		padding: 10px;
+	}
+}
+
+.article-img-left{
+	float: left;
+	padding-top: 10px;
+	padding-right: 10px;
 }
