@@ -13,7 +13,8 @@ module.exports = function(grunt) {
 	    			cwd: 'src',
 	    			src: [
 	    				'img/**/*.*',
-	    				'files/*.*'
+	    				'files/*.*',
+	    				'fonts/**/*.*'
 	    			],
 	    			dest: 'target/'
 	    		}]
@@ -121,7 +122,8 @@ module.exports = function(grunt) {
 				src:[
 					'target/scripts/**/*.js', 
 					'target/styles/**/*.css',
-					'target/img/**/*.*'
+					'target/img/**/*.*',
+					'target/fonts/**/*.*'
 				],
 				dest: ['target/**/*.html', 'target/**/*.css']
 			}

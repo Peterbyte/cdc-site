@@ -16,6 +16,10 @@ aws s3 sync target s3://staging.chadwelldentalcare.co.uk --exclude "*" --include
 
 aws s3 sync target s3://staging.chadwelldentalcare.co.uk --exclude "*" --include "*.js" --delete --content-type "application/javascript" --content-encoding gzip --cache-control max-age=7776000
 
+aws s3 sync target s3://staging.chadwelldentalcare.co.uk --exclude "*" --include "*.otf" --delete --content-type "font/opentype" --content-encoding gzip --cache-control max-age=7776000
+
+aws s3 sync target s3://staging.chadwelldentalcare.co.uk --exclude "*" --include "*.ttf" --delete --content-type "application/x-font-ttf" --content-encoding gzip --cache-control max-age=7776000
+
 aws s3 sync target s3://staging.chadwelldentalcare.co.uk --exclude "*" --include "*.ico" --delete --cache-control max-age=86400
 
 aws s3 sync target s3://staging.chadwelldentalcare.co.uk --delete --content-encoding gzip --cache-control max-age=7776000

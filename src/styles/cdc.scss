@@ -1,3 +1,13 @@
+@font-face{
+	font-family: Josefin;
+	src: url('/fonts/josefin-sans/JosefinSans-Regular.ttf') format('truetype');
+}
+
+@font-face{
+	font-family: Josefin-Medium;
+	src: url('/fonts/josefin-sans/JosefinSans-SemiBold.ttf') format('truetype');
+}
+
 .cdc-bg-green{
 	background-color: #1ca2a1;
 	color: #FFF;
