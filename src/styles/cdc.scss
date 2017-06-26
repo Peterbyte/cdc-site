@@ -45,23 +45,6 @@ header{
 	}
 }
 
-.item{
-	.item-blurb{
-		display: none;
-	}
-}
-
-.item-blurb{
-	padding: 10px;
-	h2{
-		font-size: 25px;
-	    font-weight: bold;
-	}
-	h3{
-		font-size: 18px;
-	}
-}
-
 .commendation-carousel{
 	blockquote{
 		margin: 0;
@@ -73,19 +56,8 @@ header{
 }
 
 @media (min-width:871px){
-	.item-blurb{
-		display: none;
-	}
 	.item{
 		position: relative;
-		.item-blurb{
-			display: block;
-			color: #FFF;
-			position: absolute;
-			bottom: 10px;
-			left: 10px;
-			width: 100%;
-		}
 	}
 	footer{
 		.footer-carousel{
