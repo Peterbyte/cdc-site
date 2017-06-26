@@ -62,6 +62,29 @@
 			]
 		},
 		{
+			"img":"Dr_Encarnacion_Villegas_Marin.png",
+			"name":"Dr. Encarnacion Villegas Marin",
+			"title":"Dentist",
+			"quals":[
+				"BDS (Madrid) 2002"
+			],
+			"bio":[
+				"I graduated in Madrid in 2002 and worked in a private practice for four years.",
+				"I moved to the UK in 2007 and have been working in Chadwell Dental Care since 2010.",
+				"As well General dentistry, I have an interest in periodontology (treatment of gum disease) and Paediatric Dentistry (treatment of children).",
+				"I enjoy spending time with friends, reading, yoga and my new found passion of surfing!"
+			]
+		},
+		{
+			"img":"Dr_Nadia_Mokhlesi.jpg",
+			"name":"Dr. Nadia Mokhlesi",
+			"title":"Dentist",
+			"bio":[
+				"",
+				""
+			]
+		},
+		{
 			"img":"Miss_Carol_Collins.jpg",
 			"name":"Miss. Carol Collins",
 			"title":"Practice Manager",
@@ -73,17 +96,17 @@
 			]
 		},
 		{
-			"img":"Miss_Maryline_Collins.jpg",
-			"name":"Miss. Maryline Collins",
+			"img":"Mrs_Maryline_Collins.jpg",
+			"name":"Mrs. Maryline Collins",
 			"title":"Dental Nurse",
 			"quals":[
 				"NEBDN Qualified Dental Nurse 2015",
 				"GDC no. 259870"
 			],
 			"bio":[
-				"My special interest is Implantology nursing as well as general dental nursing.",
-				"My other interests are cooking, reading, shopping and travelling.",
-				"What I enjoy most is spending time with my family and friends."
+				"My special interest is in implantology nursing as well as general nursing.",
+				"I am a reliable confident person. I enjoy my work place as we are a great team.",
+				"My other interests are cooking, shopping, reading and travelling. What I enjoy most is spending time with my family and friends."
 			]
 		},
 		{
