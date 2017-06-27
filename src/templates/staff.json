@@ -91,10 +91,15 @@
 		{
 			"img":"Dr_Nadia_Mokhlesi.jpg",
 			"name":"Dr. Nadia Mokhlesi",
-			"title":"Dentist",
+			"title":"Dentist",			
+			"quals":[
+				"BDS, Hons (King's College London) 2014",
+				"MFDS (Royal College of Surgeons of Edinburgh) 2016",
+				"GDC no. 251284"
+			],
 			"bio":[
-				"",
-				""
+				"After graduating, I worked in general practice for a year before returning to hospital to develop my skills in Restorative Dentistry at the Royal London hospital. Following this, I have gained further experience in both community dentistry and oral medicine. I now split my time between working in hospital and Chadwell Dental Care, and enjoy the variety it brings.",
+				"Outside of work, I have a keen interest in sewing and knitting, as well as spending time with friends and travelling."
 			]
 		},
 		{
