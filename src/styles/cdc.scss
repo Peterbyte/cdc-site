@@ -228,3 +228,21 @@ header{
 		overflow: hidden;
 	}
 }
+
+.side-map{
+	display: none;
+}
+
+@media (min-width:675px){
+	.side-map{
+		display: block;
+		float: right;
+		margin-left: 10px;
+	}
+}
+
+.centre-map{
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
