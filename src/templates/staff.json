@@ -7,7 +7,8 @@
 			"title":"Practice Principal",
 			"quals":[
 				"BDS (Victoria University of Manchester)",
-				"DGDP 1997 (Royal College of Surgeons London)"
+				"DGDP 1997 (Royal College of Surgeons London)",
+				"GDC no. 70771"
 			],
 			"bio":[
 				"I have practiced in Chadwell Heath for twenty years and still enjoy it!",
@@ -19,7 +20,7 @@
 		{
 			"img":"Dr_Salima_Beg.jpg",
 			"name":"Dr. Salima Beg",
-			"title":"Principal Partner",
+			"title":"Practice Principal",
 			"quals":[
 				"BDS 1996 (Barts and the Royal London Hospital)",
 				"BSc Physiology/Pharmacology 1991 (Kings College London)",
@@ -58,7 +59,7 @@
 			"bio":[
 				"Cristina graduated in Bilbao (Spain 2007) and made the journey to England to practice in London.",
 				"She has special interests in oral implantology and Prosthodontics.",
-				"Her other interests include travelling, music/ concerts and she is a big football fan."
+				"Her other interests include travelling, music/concerts and she is a big football fan."
 			]
 		},
 		{
@@ -73,19 +74,6 @@
 				"I moved to the UK in 2007 and have been working in Chadwell Dental Care since 2010.",
 				"As well General dentistry, I have an interest in periodontology (treatment of gum disease) and Paediatric Dentistry (treatment of children).",
 				"I enjoy spending time with friends, reading, yoga and my new found passion of surfing!"
-			]
-		},
-		{
-			"img":"Mrs_Mihaela_Fudulache.jpg",
-			"name":"Mrs. Mihaela Fudulache",
-			"title":"Dentist",
-			"quals":[
-				"GDC no. 260885"
-			],
-			"bio":[
-				"I am part of the Chadwell Dental Care Team for the last 3 years.",
-				"I have a special interest in Orthodontics and Surgical nursing.",
-				"Out of work I love travelling and enjoy my family moments."
 			]
 		},
 		{
@@ -114,6 +102,59 @@
 			]
 		},
 		{
+			"img":"placeholder.png",
+			"name":"Mrs. Stephanie Kaye",
+			"title":"Dental Nurse",
+			"quals":[
+				"GDC no. 225242"
+			],
+			"bio":[
+				"I have been working at Chadwell Dental Care for the last seven years. I work part-time as I have a young family.",
+				"As well as general dentistry, I have an interest in implant and surgical nursing as well as some other administrative roles within the practice. When called upon, I have been known to work on reception as well!"
+			]
+		},
+		{
+			"img":"Miss_Raminta_Macekaite.jpg",
+			"name":"Mrs. Raminta Macekaite",
+			"title":"Dental Nurse",
+			"quals":[
+				"Registered Dental Nurse, Nov 2013",
+				"GDC no. 247287"
+			],
+			"bio":[
+				"I have been working for 6 years in Chadwell Dental Care. I enjoy the buzz of helping out and meeting our patients, who come from all walks of life!",
+				"I have an interest in radiography as well as orthodontics.",
+				"My hobbies include travelling and I am a make up artist. My family is very important and I enjoy spending as much time as possible with them."
+			]
+		},
+		{
+			"img":"Mrs_Mihaela_Fudulache.jpg",
+			"name":"Mrs. Mihaela Fudulache",
+			"title":"Dental Nurse",
+			"quals":[
+				"GDC no. 260885"
+			],
+			"bio":[
+				"I am part of the Chadwell Dental Care Team for the last 3 years.",
+				"I have a special interest in Orthodontics and Surgical nursing.",
+				"Out of work I love travelling and enjoy my family moments."
+			]
+		},
+		{
+			"img":"Mrs_Lisa_Window.jpg",
+			"name":"Mrs. Lisa Window",
+			"title":"Dental Nurse",
+			"quals":[
+				"NEBDN Qualified Dental Nurse 2014",
+				"Extended Duties Qualification Dental Impression taking 2016",
+				"GDC no. 254494"
+			],
+			"bio":[
+				"What I enjoy mostabout dental nursing is the variety! I like the fast pace of working in a busy NHS and PRIVATE practice. Every day brings it’s different challenges.",
+				"Outside of work I have a passion for tattoos, live music, travelling and family time."
+			]
+		},
+		{
 			"img":"Mrs_Maryline_Collins.jpg",
 			"name":"Mrs. Maryline Collins",
 			"title":"Dental Nurse",
@@ -125,18 +166,6 @@
 				"My special interest is in implantology nursing as well as general nursing.",
 				"I am a reliable confident person. I enjoy my work place as we are a great team.",
 				"My other interests are cooking, shopping, reading and travelling. What I enjoy most is spending time with my family and friends."
-			]
-		},
-		{
-			"img":"placeholder.png",
-			"name":"Mrs. Stephanie Kaye",
-			"title":"Dental Nurse",
-			"quals":[
-				"GDC no. 225242"
-			],
-			"bio":[
-				"I have been working at Chadwell Dental Care for the last seven years. I work part-time as I have a young family.",
-				"As well as general dentistry, I have an interest in implant and surgical nursing as well as some other administrative roles within the practice. When called upon, I have been known to work on reception as well!"
 			]
 		},
 		{
