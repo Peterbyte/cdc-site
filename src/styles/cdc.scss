@@ -214,18 +214,54 @@ header{
 	}
 }
 
-.cqc-main{
-	display: inline-block;
+.intro-text{
+	margin-bottom: 30px;
+}
+
+.file-download{
+	display: block;
+	background-color: rgba(28, 162, 161, 0.28);
+    border-radius: 9px;
+    padding: 10px;
 	margin-top: 10px;
 	text-decoration: none;
-	img{
-		float: left;
-		padding: 5px;
-		margin-top: 6px;
+	&.fixed{
+		width: 325px;
 	}
-	p{
-		padding: 7px;
-		overflow: hidden;
+	&.centred{
+		@media (min-width:675px){
+			margin: 10px auto 0;
+		    width: 85%;
+		}
+	}
+	.icon-block{
+		float: left;
+		margin: 0;
+		display: inline;
+	}
+	img{
+		margin: 0 auto;
+    	display: block;
+		@media (min-width:675px){
+			float: left;
+			margin: 0;
+			display: inline;
+		}
+		padding: 5px;
+	}
+	.icon-block{
+		font-size: 250%;
+		margin-top: 12px;
+	}
+	.text-block{
+		padding: 10px;
+	    overflow: hidden;
+	    p{
+	    	margin: 0 0 10px 0;
+	    }
+	    p:last-of-type{
+	    	margin: 0;
+	    }
 	}
 }
 
