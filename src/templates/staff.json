@@ -103,18 +103,6 @@
 			]
 		},
 		{
-			"img":"placeholder.png",
-			"name":"Mrs. Stephanie Kaye",
-			"title":"Dental Nurse",
-			"quals":[
-				"GDC no. 225242"
-			],
-			"bio":[
-				"I have been working at Chadwell Dental Care for the last seven years. I work part-time as I have a young family.",
-				"As well as general dentistry, I have an interest in implant and surgical nursing as well as some other administrative roles within the practice. When called upon, I have been known to work on reception as well!"
-			]
-		},
-		{
 			"img":"Miss_Raminta_Macekaite.jpg",
 			"name":"Mrs. Raminta Macekaite",
 			"title":"Dental Nurse",
@@ -126,19 +114,6 @@
 				"I have been working for 6 years in Chadwell Dental Care. I enjoy the buzz of helping out and meeting our patients, who come from all walks of life!",
 				"I have an interest in radiography as well as orthodontics.",
 				"My hobbies include travelling and I am a make up artist. My family is very important and I enjoy spending as much time as possible with them."
-			]
-		},
-		{
-			"img":"Mrs_Mihaela_Fudulache.jpg",
-			"name":"Mrs. Mihaela Fudulache",
-			"title":"Dental Nurse",
-			"quals":[
-				"GDC no. 260885"
-			],
-			"bio":[
-				"I am part of the Chadwell Dental Care Team for the last 3 years.",
-				"I have a special interest in Orthodontics and Surgical nursing.",
-				"Out of work I love travelling and enjoy my family moments."
 			]
 		},
 		{
@@ -170,17 +145,6 @@
 			]
 		},
 		{
-			"img":"Miss_Anca_Dragoi.jpg",
-			"name":"Miss. Anca Dragoi",
-			"title":"Trainee Dental Nurse",
-			"bio":[
-				"I have been working for over a year and I really enjoy working at Chadwell Dental Care Ltd.",
-				"I try my best to be polite and produce a conducive atmosphere for the patients.",
-				"We all work well as team and and my colleagues always give encouragement and help with my oncoming examinations.",
-				"I love my home life and travelling."
-			]
-		},
-		{
 			"img":"placeholder.png",
 			"name":"Miss. Shapla Begum",
 			"title":"Receptionist",
@@ -188,15 +152,6 @@
 				"I have worked on reception for six years and enjoy the challenges it gives and helping our patients",
 				"To have a good experience at our practice. In particular I like to to help our nervous patients and being bilingual, help those patients for whom English is not their first language.",
 				"Out of work I like to design and make clothes as well as entertaining family and friends."
-			]
-		},
-		{
-			"img":"Miss_Danielle_Batty.jpg",
-			"name":"Miss. Danielle Batty",
-			"title":"Receptionist",
-			"bio":[
-				"I enjoy my work as a receptionist here at Chadwell Dental Care as it gives me the opportunity to communicate and engage with the general public. I am a naturally bubbly character, but at the same time vibrant, organised and a team player.",
-				"Out of work I enjoy lots of exercise and taking short breaks away with my loved ones."
 			]
 		},
 		{
