@@ -281,6 +281,25 @@ header{
 	}
 }
 
+.alert-message{
+	padding: 20px;
+    background-color: #ff4b4b;
+    color: #FFF;
+    margin-bottom: 10px !important;
+    h3{
+    	margin-top: 0;
+    }
+    .icon-block{
+    	margin-top: 0;
+    	margin-right: 10px;
+    	font-size: 33px;
+    }
+    p{
+    	margin-top: 8px;
+    	margin-bottom: 0;
+    }
+}
+
 .side-map{
 	display: none;
 }
