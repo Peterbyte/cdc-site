@@ -48,10 +48,13 @@ header{
 	}
 	#cdc-logo{
 		background: url('../img/cdc-logo.png') no-repeat scroll 5px 6px;
-		text-indent: -9999px;
 		margin: 0 0 0 12px;
 		padding: 0;
 		height: 45px;
+		width: 160px;
+		span{
+			display: none;
+		}
 	}
 }
 
