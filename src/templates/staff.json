@@ -36,48 +36,6 @@
 			]
 		},
 		{
-			"img":"Dr_Jonathan_Ogle.jpg",
-			"name":"Dr. Jonathan Ogle",
-			"title":"Dentist",
-			"quals":[
-				"BDS (University of Dundee) 2014",
-				"GDC no. 250968"
-			],
-			"bio":[
-				"I enjoy all aspects of Dentistry, especially Preventative and Restorative Dentistry.",
-				"I enjoy restoring dentitions with Cosmetic Dentistry and changing peoples smiles!",
-				"Outside of work, I have a strong interest in sports, especially football and cycling. I am a keen Hockey player, playing for a local team in London."
-			]
-		},
-		{
-			"img":"Dr_Cristina_Dias_Hererro.jpg",
-			"name":"Dr. Cristina Diaz",
-			"title":"Dentist",
-			"quals":[
-				"GDC no. 161746"
-			],
-			"bio":[
-				"Cristina graduated in Bilbao (Spain 2007) and made the journey to England to practice in London.",
-				"She has special interests in oral implantology and Prosthodontics.",
-				"Her other interests include travelling, music/concerts and she is a big football fan."
-			]
-		},
-		{
-			"img":"Dr_Encarnacion_Villegas_Marin.png",
-			"name":"Dr. Encarni Villegas Marin",
-			"title":"Dentist",
-			"quals":[
-				"BDS (Madrid) 2002",
-				"GDC no. 111025"
-			],
-			"bio":[
-				"I graduated in Madrid in 2002 and worked in a private practice for four years.",
-				"I moved to the UK in 2007 and have been working in Chadwell Dental Care since 2010.",
-				"As well General dentistry, I have an interest in periodontology (treatment of gum disease) and Paediatric Dentistry (treatment of children).",
-				"I enjoy spending time with friends, reading, yoga and my new found passion of surfing!"
-			]
-		},
-		{
 			"img":"Dr_Nadia_Mokhlesi.jpg",
 			"name":"Dr. Nadia Mokhlesi",
 			"title":"Dentist",			
@@ -92,6 +50,23 @@
 			]
 		},
 		{
+			"img":"Dr_Maria_Toli.jpg",
+			"name":"Dr. Maria Toli",
+			"title":"Dentist",			
+			"quals":[
+				"Msc (Wales) 2016",
+				"DDS (Greece) 2008",
+				"GDC no. 160295"
+			],
+			"bio":[
+				"I graduated from the Dental School of the Aristotle University of Thessaloniki, Greece in 2008. Following my graduation I worked as a general dentist in the Armed Forces Dental Practice in Thessaloniki as well as in a private practice limited to Periodontics.",
+				"I moved to the UK in 2009. I have experience working in general dental practices as well as an emergency dentist in a hospital setting.",
+				"In 2011-2012 I attended a course in Restorative Dentistry and in 2016 I was awarded a MSc in Clinical Endodontics from the University of South Wales, UK.",
+				"What I enjoy the most in my profession is getting the patients out of pain and helping them achieve and maintain a healthy mouth.",
+				"Outside of work, I enjoy city walks and museum visits with my family and friends."
+			]
+		},
+		{
 			"img":"Miss_Carol_Collins.jpg",
 			"name":"Miss. Carol Collins",
 			"title":"Practice Manager",
@@ -100,6 +75,17 @@
 				"As well as reception I am in charge of the day to day running of the practice, and the smooth transition of new members of staff into the Practice.",
 				"We try to ensure a good experience for our patients and as the ‘face’ of the practice we implement our ethos of looking after you.",
 				"Out of work I enjoy spending time with my family and travelling."
+			]
+		},
+		{
+			"img":"Ms_Jo_Cuttell.jpg",
+			"name":"Miss. Jo Cuttell",
+			"title":"Practice Manager",
+			"bio":[
+				"I have enjoyed working on reception for 4 years and am one of the practice managers. You build a great rapport with patients who put their trust in you.",
+				"As the heartbeat, we maintain the smooth running of this busy practice, a challenge we meet every day.",
+				"To further my knowledge, I am currently studying Business Management.",
+				"Outside of work, I love spending time with my family and working out at the gym."
 			]
 		},
 		{
@@ -114,20 +100,6 @@
 				"I have been working for 6 years in Chadwell Dental Care. I enjoy the buzz of helping out and meeting our patients, who come from all walks of life!",
 				"I have an interest in radiography as well as orthodontics.",
 				"My hobbies include travelling and I am a make up artist. My family is very important and I enjoy spending as much time as possible with them."
-			]
-		},
-		{
-			"img":"Mrs_Lisa_Window.jpg",
-			"name":"Mrs. Lisa Window",
-			"title":"Dental Nurse",
-			"quals":[
-				"NEBDN Qualified Dental Nurse 2014",
-				"Extended Duties Qualification Dental Impression taking 2016",
-				"GDC no. 254494"
-			],
-			"bio":[
-				"What I enjoy mostabout dental nursing is the variety! I like the fast pace of working in a busy NHS and PRIVATE practice. Every day brings it’s different challenges.",
-				"Outside of work I have a passion for tattoos, live music, travelling and family time."
 			]
 		},
 		{
@@ -146,21 +118,36 @@
 		},
 		{
 			"img":"placeholder.png",
-			"name":"Miss. Shapla Begum",
-			"title":"Receptionist",
-			"bio":[
-				"I have worked on reception for six years and enjoy the challenges it gives and helping our patients",
-				"To have a good experience at our practice. In particular I like to to help our nervous patients and being bilingual, help those patients for whom English is not their first language.",
-				"Out of work I like to design and make clothes as well as entertaining family and friends."
+			"name":"Miss. Anca Balan",
+			"title":"Trainee Dental Nurse",
+			"bio": [
+				"I joined Chadwell Dental Care as a trainee dental nurse.",
+				"I've really enjoyed the friendly working environment here.",
+				"I'm passionate about making sure your dental treatment is carried out in clean and comfortable surroundings. I'll try to make your visit to the dentist stress-free.",
+				"I also have a special interest in orthodontics, implantology and periodontics.",
+				"Outside of the practice I spend time with family and friends, also I enjoy cooking, travelling, reading and listening to music!"
 			]
 		},
 		{
-			"img":"Mrs_Pauline_Alabaster.jpg",
-			"name":"Mrs. Pauline Anne Alabaster",
-			"title":"Receptionist",
+			"img":"Ms_Gaivas.jpg",
+			"name":"Mrs. Gaiva Kavaliauskiene",
+			"title":"Trainee Dental Nurse",
 			"bio":[
-				"As the newest member of the Chadwell dental care team, I aim to build on the warm and engaging atmosphere that patients are used to. I am friendly, patient and always willing to help.",
-				"Away from work I enjoy reading and studying medieval history and I am a keen amateur photographer."
+				"I joined Chadwell Dental Care as a trainee dental nurse.",
+				"This has allowed me to pursue my career in dentistry.",
+				"I am most fascinated about implantation and the satisfaction patients receive whilst with us.",
+				"I have an amazing support system at home who encourage me to be the best I can.",
+				"Outside of work, I enjoy family time. I also love to jog."
+			]
+		},
+		{
+			"img":"Ms_Pavleta.jpg",
+			"name":"Mrs. Pavleta Petrova",
+			"title":"Trainee Dental Nurse",
+			"bio":[
+				"I have been working at Chadwell for the last few months as a trainee nurse.",
+				"We have a great team here helping out our community and this brings me personal happiness to do this in my job.",
+				"Out of work I devote myself to my husband and 2 children and indulge my passions for cooking, fashion and shoes!"
 			]
 		}
 	]
