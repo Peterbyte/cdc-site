@@ -281,7 +281,7 @@ header{
 	}
 }
 
-.alert-message{
+.alert-message, .info-message{
 	padding: 20px;
     background-color: #eaa200;
     color: #FFF;
@@ -298,6 +298,10 @@ header{
     	margin-top: 8px;
     	margin-bottom: 0;
     }
+}
+
+.info-message{
+	background-color: #009688;
 }
 
 .side-map{

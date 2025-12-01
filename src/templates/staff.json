@@ -36,20 +36,6 @@
 			]
 		},
 		{
-			"img":"Dr_Nadia_Mokhlesi.jpg",
-			"name":"Dr. Nadia Mokhlesi",
-			"title":"Dentist",			
-			"quals":[
-				"BDS, Hons (King's College London) 2014",
-				"MFDS (Royal College of Surgeons of Edinburgh) 2016",
-				"GDC no. 251284"
-			],
-			"bio":[
-				"After graduating, I worked in general practice for a year before returning to hospital to develop my skills in Restorative Dentistry at the Royal London hospital. Following this, I have gained further experience in both community dentistry and oral medicine. I now split my time between working in hospital and Chadwell Dental Care, and enjoy the variety it brings.",
-				"Outside of work, I have a keen interest in sewing and knitting, as well as spending time with friends and travelling."
-			]
-		},
-		{
 			"img":"Dr_Maria_Toli.jpg",
 			"name":"Dr. Maria Toli",
 			"title":"Dentist",			
@@ -67,6 +53,20 @@
 			]
 		},
 		{
+			"img":"Dr_Anam_Farooqui.jpg",
+			"name":"Dr. Anam Farooqui",
+			"title":"Dentist",			
+			"quals":[
+				"GDC no. 313019"
+			],
+			"bio":[
+				"As the newest member of the Chadwell Dental Care team, I am excited to meet my patients, build strong relationships and ensure a high standard of care and satisfaction.",
+				"Since qualifying in 2023, I have gained valuable experience working in both Private and NHS dentistry. Alongside general dental care, I have developed a particular interest in orthodontics, specialising in clear aligner treatments.",
+				"I am committed to providing gentle, compassionate care, epsecially for patients with dental anxiety, and I strive to help overcome the stigma often associated with dental visits.",
+				"Outside of work, I enjoy spending quality time with my rabbit and cat."
+			]
+		},
+		{
 			"img":"Miss_Carol_Collins.jpg",
 			"name":"Miss. Carol Collins",
 			"title":"Practice Manager",
@@ -78,76 +78,28 @@
 			]
 		},
 		{
-			"img":"Ms_Jo_Cuttell.jpg",
-			"name":"Miss. Jo Cuttell",
-			"title":"Practice Manager",
-			"bio":[
-				"I have enjoyed working on reception for 4 years and am one of the practice managers. You build a great rapport with patients who put their trust in you.",
-				"As the heartbeat, we maintain the smooth running of this busy practice, a challenge we meet every day.",
-				"To further my knowledge, I am currently studying Business Management.",
-				"Outside of work, I love spending time with my family and working out at the gym."
+			"img": "Jean_Ford.jpg",
+			"name": "Jean Mancini Ford",
+			"title": "Receptionist",
+			"bio": [
+				"I recently joined the team at Chadwell Dental Care as a receptionist. We have a great team ethic, ready and willing to serve.",
+				"In my free time, I enjoy swimming, going to watch football, socializing with friends and family, and traveling."
 			]
 		},
 		{
-			"img":"Miss_Raminta_Macekaite.jpg",
-			"name":"Mrs. Raminta Macekaite",
-			"title":"Dental Nurse",
-			"quals":[
-				"Registered Dental Nurse, Nov 2013",
-				"GDC no. 247287"
-			],
-			"bio":[
-				"I have been working for 6 years in Chadwell Dental Care. I enjoy the buzz of helping out and meeting our patients, who come from all walks of life!",
-				"I have an interest in radiography as well as orthodontics.",
-				"My hobbies include travelling and I am a make up artist. My family is very important and I enjoy spending as much time as possible with them."
-			]
-		},
-		{
-			"img":"Mrs_Maryline_Collins.jpg",
-			"name":"Mrs. Maryline Collins",
-			"title":"Dental Nurse",
-			"quals":[
-				"NEBDN Qualified Dental Nurse 2015",
-				"GDC no. 259870"
-			],
-			"bio":[
-				"My special interest is in implantology nursing as well as general nursing.",
-				"I am a reliable confident person. I enjoy my work place as we are a great team.",
-				"My other interests are cooking, shopping, reading and travelling. What I enjoy most is spending time with my family and friends."
-			]
-		},
-		{
-			"img":"placeholder.png",
+			"img":"Anca_Balan.jpg",
 			"name":"Miss. Anca Balan",
-			"title":"Trainee Dental Nurse",
+			"title":"Dental Nurse",
+			"quals":[
+				"NEBDN Qualified Dental Nurse 2023",
+				"GDC no. 307731"
+			],
 			"bio": [
 				"I joined Chadwell Dental Care as a trainee dental nurse.",
 				"I've really enjoyed the friendly working environment here.",
 				"I'm passionate about making sure your dental treatment is carried out in clean and comfortable surroundings. I'll try to make your visit to the dentist stress-free.",
 				"I also have a special interest in orthodontics, implantology and periodontics.",
 				"Outside of the practice I spend time with family and friends, also I enjoy cooking, travelling, reading and listening to music!"
-			]
-		},
-		{
-			"img":"Ms_Gaivas.jpg",
-			"name":"Mrs. Gaiva Kavaliauskiene",
-			"title":"Trainee Dental Nurse",
-			"bio":[
-				"I joined Chadwell Dental Care as a trainee dental nurse.",
-				"This has allowed me to pursue my career in dentistry.",
-				"I am most fascinated about implantation and the satisfaction patients receive whilst with us.",
-				"I have an amazing support system at home who encourage me to be the best I can.",
-				"Outside of work, I enjoy family time. I also love to jog."
-			]
-		},
-		{
-			"img":"Ms_Pavleta.jpg",
-			"name":"Mrs. Pavleta Petrova",
-			"title":"Trainee Dental Nurse",
-			"bio":[
-				"I have been working at Chadwell for the last few months as a trainee nurse.",
-				"We have a great team here helping out our community and this brings me personal happiness to do this in my job.",
-				"Out of work I devote myself to my husband and 2 children and indulge my passions for cooking, fashion and shoes!"
 			]
 		}
 	]
